@@ -32,6 +32,16 @@ class App extends React.Component{
         error: ""
     
       });
+    }else{
+      this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Please Enter The Values"
+    
+      });
     }
     
     }
